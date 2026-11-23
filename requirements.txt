@@ -1,0 +1,4 @@
+instaloader>=4.13
+playwright>=1.40
+requests>=2.25
+yt-dlp>=2024.0.0

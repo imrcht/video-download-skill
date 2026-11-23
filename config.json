@@ -1,0 +1,22 @@
+{
+    "min_delay_seconds": 30,
+    "max_delay_seconds": 90,
+    "batch_size": 5,
+    "batch_pause_minutes": 3,
+    "max_downloads_per_session": 100,
+    "output_directory": "./downloads",
+    "instagram_output_directory": "./downloads/instagram",
+    "youtube_output_directory": "./downloads/youtube",
+    "extract_audio": true,
+    "audio_format": "mp3",
+    "save_metadata": true,
+    "max_duration_seconds": null,
+    "min_views": null,
+    "on_429_wait_minutes": 10,
+    "max_retries_on_error": 3,
+    "cooldown_after_error_seconds": 120,
+    "browser_scroll_delay_ms_min": 2000,
+    "browser_scroll_delay_ms_max": 5000,
+    "browser_headless": true,
+    "browser_data_dir": "./browser_data"
+}

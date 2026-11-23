@@ -1,0 +1,19 @@
+---
+description: Automatically download Instagram Reels and YouTube videos/shorts given a URL with video and audio references.
+globs: *
+alwaysApply: false
+---
+
+# Media Downloader Skill for Cursor
+
+When analyzing Instagram reels or YouTube links provided by the user:
+1. Run the downloader:
+   ```bash
+   python D:\instagram-reels-downloader\cli.py download "<URL>" --audio --json
+   ```
+2. Parse the returned JSON for `video_path` and `audio_path`.
+3. Use the downloaded files for multimodal visual and audio inspection.
+4. If an Instagram login is needed, instruct the user to run:
+   ```bash
+   python D:\instagram-reels-downloader\cli.py login --browser
+   ```

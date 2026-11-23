@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Packages
+.venv/
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# User authentication sessions & sensitive credentials
+# NEVER COMMIT THESE TO GITHUB!
+browser_data/
+sessions/
+*.session
+*.cookies
+.env
+.env.*
+!.env.example
+
+# Progress tracking and state
+progress/
+
+# Downloaded media files & generated audio
+downloads/
+*.mp4
+*.mp3
+*.wav
+*.m4a
+*.webm
+*_meta.json
+
+# IDE & Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
